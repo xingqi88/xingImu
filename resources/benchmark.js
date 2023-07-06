@@ -4,6 +4,7 @@ var colors = require('colors');
 var fs = require('fs');
 var path = require('path');
 var vm = require('vm');
+var vmi = vm;
 
 function promisify(fn) {
   return function () {
