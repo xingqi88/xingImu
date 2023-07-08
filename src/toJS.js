@@ -26,3 +26,7 @@ export function toJS(value) {
   });
   return result;
 }
+
+export function toJsStr(value){
+  //TO DO
+}
